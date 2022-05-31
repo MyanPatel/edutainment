@@ -11,6 +11,7 @@
 		9689B16128457A3E00EE32EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9689B16028457A3E00EE32EF /* ContentView.swift */; };
 		9689B16328457A4200EE32EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9689B16228457A4200EE32EF /* Assets.xcassets */; };
 		9689B16628457A4200EE32EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9689B16528457A4200EE32EF /* Preview Assets.xcassets */; };
+		9689B16F2846815D00EE32EF /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9689B16E2846815D00EE32EF /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9689B16028457A3E00EE32EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9689B16228457A4200EE32EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9689B16528457A4200EE32EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9689B16E2846815D00EE32EF /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				9689B15E28457A3E00EE32EF /* edutainmentApp.swift */,
 				9689B16028457A3E00EE32EF /* ContentView.swift */,
+				9689B16E2846815D00EE32EF /* SplashScreen.swift */,
 				9689B16228457A4200EE32EF /* Assets.xcassets */,
 				9689B16428457A4200EE32EF /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9689B16F2846815D00EE32EF /* SplashScreen.swift in Sources */,
 				9689B16128457A3E00EE32EF /* ContentView.swift in Sources */,
 				9689B15F28457A3E00EE32EF /* edutainmentApp.swift in Sources */,
 			);
