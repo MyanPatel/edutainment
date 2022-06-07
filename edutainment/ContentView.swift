@@ -112,7 +112,7 @@ struct ContentView: View {
     
     func setQuestion(){
         
-        let myQuiz = Question(questionAmount: questionSelect, multipleChoice: timetableSelect)
+        let myQuiz = Question(multipleChoice: timetableSelect)
         let questions = myQuiz.generateQuestions()
         self.questionDict = questions
         
@@ -172,11 +172,11 @@ struct ContentView: View {
     
     struct Question {
         
-        var questionAmount: Int
+        //var questionAmount: Int
         var multipleChoice: Int
         
         
-        func generateQuestions() -> [String:Int]{
+        func generateQuestions() -> [String:Int] {
             
             var questions = [String: Int]()
             
